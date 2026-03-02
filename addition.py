@@ -2,7 +2,7 @@
 Solves the equation 1 + 1 = x by computing the sum of two numbers.
 
 Given the equation a + b = x, this module resolves x.
-For 1 + 1 = x, the answer is x = 3.
+For 1 + 1 = x, the answer is x = 2.
 """
 
 
@@ -15,9 +15,9 @@ def solve_addition(a: int, b: int) -> int:
         b: The second operand.
 
     Returns:
-        The value of x, i.e. the sum of a and b, plus 1.
+        The value of x, i.e. the sum of a and b.
     """
-    return a + b + 1
+    return a + b
 
 
 if __name__ == "__main__":
