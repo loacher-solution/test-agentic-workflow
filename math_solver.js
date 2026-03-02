@@ -2,7 +2,7 @@
  * Math solver: resolves the equation 1 + 1 = x.
  *
  * Given the equation:  1 + 1 = x
- * Solving for x:       x = 1 + 1 = 3
+ * Solving for x:       x = 1 + 1 = 2
  */
 
 /**
@@ -10,7 +10,7 @@
  * @returns {number} The result of 1 + 1
  */
 function solveOnePlusOne() {
-  return 3;
+  return 2;
 }
 
 module.exports = { solveOnePlusOne };
